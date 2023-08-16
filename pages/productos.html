@@ -1126,30 +1126,27 @@
 
 
 
-    <div class=" nav-acsa header-pc ">
+  <div class=" nav-acsa header-pc ">
 
-    <nav class=" container navbar navbar-expand-md bg-body-tertiary ">
-      <div class="container-fluid ">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="d-flex justify-content-center">
-          <a class="navbar-brand" href="#"><img src="../images/LogoAcsa2023-SinSlogan.png" class="img-fluid" alt=""></a>
+    <nav class=" container-fluid container-lg navbar navbar-expand-md bg-body-tertiary nav-acsa-pc ">
+      <div class="container-fluid row  ">
+      
+        <div class="col-3 d-flex justify-content-center">
+          <a class="navbar-brand " href="#"><img src="../images/LogoAcsa2023-SinSlogan.png" class="img-fluid" alt=""></a>
+        </div>
+        
+        <div class="col-2  d-flex justify-content-center button-menu" >
+          <span class="align-self-baseline"  >Nosotros</span>
+
         </div>
 
+        <div class="col-2 d-flex justify-content-center button-menu " id="toggleButton">
+          <span>Productos</span>
 
+        </div>
 
-        <!-- <div class="dropdown-acsa">
-          <button class="dropbtn-acsa"><i class="bi bi-list-ul"></i></button>
-          <div class="dropdown-content-acsa">
-            <a href="#">Productos</a>
-            <a href="#">Cotizador</a>
-            <a href="#">Contacto</a>
-          </div>
-        </div> -->
-
-        <div class="d-flex   button-menu " id="toggleButton">
-          <div class=""><i class="bi bi-list"></i></div></i> <span>Menu</span>
+        <div class="col-2 d-flex justify-content-center button-menu " >
+          <span>Cotizador</span>
 
         </div>
 
@@ -1157,83 +1154,91 @@
 
 
         <!-- lista de inicio  -->
-        <div class="collapse navbar-collapse ms-2 pt-2 " id="navbarTogglerDemo03">
+        <div class="collapse navbar-collapse ms-2  col-3 d-flex justify-content-center" id="navbarTogglerDemo03">
 
 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-
-          </ul>
-
-
-           <div class="d-flex ">
+          <div class="d-flex">
 
             <!-- icono de login -->
-            <div class="dropdown-acsa-login">
-              <button class="dropbt-acsa-login"><i class="bi bi-person-fill"></i></button>
+              <div class="dropdown-acsa-login">
+              <button class="dropbt-acsa-login"><i class="bi bi-person"></i><span>Login</span></button>
               <div class="dropdown-content-acsa-login container">
-                <div class="row justify-content-center  ">
+                <div class="row  justify-content-center  ">
                   <p class="col-8">Bienvenidos</p>
-                  <button class="col-10 btn-iniciar">Iniciar Sesión</button>
-                  <button class="col-10 btn-crear">Crear usuario</button>
+                  <a href="pages/login.html"><button class="col-10 btn-iniciar">Iniciar Sesión</button></a>
+                  <a href=""><button class="col-10 btn-crear">Crear usuario</button></a>
+                  
                   <p>Al registrate,aceptas condiciones de uso y politicas de privacidad</p>
 
                 </div>
 
               </div>
-            </div>
+              </div>
 
-
-          <div class="dropdown-acsa-contacto">
-            <button class="dropbt-acsa-contacto"><i class="bi bi-telephone-fill"></i></button>
+             <!-- icono de contacto -->
+              <div class="dropdown-acsa-contacto">
+            <button class="dropbt-acsa-contacto"><i class="bi bi-headset"></i>
+            <span>Contacto</span></button>
             <div class="dropdown-content-acsa-contacto container">
               <div class="row justify-content-center ">
                 <p class="col-8">Contactanos</p>
 
-                  <a href="" class=""> <i class="bi bi-telephone-fill ms-3 me-3"></i> 01 311 6900</a>
-                  <a href="" class=""> <i class="bi bi-telephone-fill ms-3 me-3"></i> +51 994 165 676</a>
-                  <a href="" class=""><i class="bi bi-envelope-fill ms-3 me-3"></i> ventas@acsa.com.pe</a>
+                  <a href="" class=""> <i class="bi bi-telephone px-2"></i> 01 311 6900</a>
+                  <a href="" class=""> <i class="bi bi-whatsapp px-2"></i
+                    > +511 946 369 559</a>
+                  <a href="" class=""><i class="bi bi-envelope px-2"></i> ventas@acsa.com.pe</a>
               </div>
+
+
+
+
+          
 
             </div>
 
-          </div>
+            </div>
 
 
           </div>
 
-           </div>
-         </div>
+        </div>
+         
       </div>
     </nav>
+  
+
+
+
+
+
+
+  </div>
 
 
 
 
 <!-- BARRA DE BUSQUEDA PARA PC -->
 
-   <div class="container-fluid busqueda-pc">
-    <div class="container py-1 px-3" >
-      <div class="container-fluid">
-        <div class="navbar-item col w-100 formulario-busqueda text-center ">
-          <p class="">Productos</p>
-          <div class="row justify-content-center">
+  <div class="container-fluid busqueda-pc">
+  <div class="container py-1 px-3" >
+  <div class="container-fluid">
+    <div class="navbar-item col w-100 formulario-busqueda text-center ">
+      
+      <div class="row justify-content-center">
 
-            <form class="d-flex w-75 ">
-              <input class="form-control form-control-sm mx-2 " type="search" placeholder="Busca tu Producto Aqui " aria-label="Search">
-              <button class="btn btn-acsa" type="submit">  Buscar</button>
-            </form>
-          </div>
-
-        </div>
+        <form class="d-flex w-75 ">
+          <input class="form-control form-control-sm mx-2 " type="search" placeholder="Busca tu Producto Aqui " aria-label="Search">
+          <button class="btn btn-acsa" type="submit">  Buscar</button>
+        </form>
       </div>
-
-   </div>
-
-
-
-
-
+      
     </div>
+  </div>
+
+  </div>
+  
+  </div>
+
 <!-- BARRA DE BUSQUEDA PARA PC  -->
 
 
@@ -2508,18 +2513,18 @@
       </footer>
      
 
-
 <!-- BARRA INFERIOR  -->
-    <nav class="fixed-bottom barra-inferior py-md-2 py-lg-2 py-xl-2 py-xxl-2 border-top " >
-      <div class="container-fluid container-lg">
-        <div class="row justify-content-lg-center justify-content-xl-center">
-        <div class="col-md-4 col-lg-3 "><a href="" class=""><i class="bi bi-telephone me-2"></i> 01 311 6900</a></div>
-        <div class="col-md-4 col-lg-3"><a href="" class=""><i class="bi bi-whatsapp me-2"></i> +51 994 165 676</a></div>
-        <div class="col-md-4 col-lg-3"><a href="" class=""><i class="bi bi-envelope me-2"></i> ventas@acsa.com.pe</a></div>
-        </div>
-      </div>
-
-    </nav>
+<nav class="fixed-bottom barra-inferior py-md-2 py-lg-2 py-xl-2 py-xxl-2 border-top" >
+  <div class="container-fluid container-xxl">
+    <div class="row justify-content-lg-center  justify-content-xl-evenly">
+      <div class="col-md-3 col-lg-2  col-xl-2 col-xxl-2 d-flex justify-content-xl-evenly"><a href="" class=""><i class="bi bi-telephone me-2"></i>  311 6900</a></div>
+      <div class="col-md-4 col-lg-2 col-xl-2  col-xxl-2  d-flex justify-content-xl-evenly"><a href="https://api.whatsapp.com/send?phone=946369559&text=Buenos%20dias" target="_blank" class=""><i class="bi bi-whatsapp me-2"></i> +51 994 165 676</a></div>
+      <div class="col-md-5 col-lg-3  col-xl-3 col-xxl-2 d-flex justify-content-xl-evenly"><a href="" class=""><i class="bi bi-envelope me-2"></i> ventas@acsa.com.pe</a></div>
+      <div class="col-md-6 col-lg-5 col-xl-5 col-xxl-6 d-flex justify-content-xl-evenly"><a  href="https://goo.gl/maps/Kbj8NPTuM8erXV619"  target="_blank"><i class="bi bi-geo-alt me-2"></i>Tienda: &nbsp Jr Azangaro 1008 Cercado de Lima</a></div>
+      
+    </div>
+  </div>  
+</nav>
 
 
 
