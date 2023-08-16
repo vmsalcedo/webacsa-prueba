@@ -1,0 +1,294 @@
+/* *********************** Custom Properties ******************************** */
+
+:root {
+  --first-color:rgb(29, 94, 169);
+  --first-alpha-color:rgb(29, 94, 169, 0.6);
+  /* --second-color:#657A99; */
+  --second-color:rgb(74, 193, 239); 
+  --second-alpha-color:rgb(74, 193, 239, 0.75);
+
+  --bg-color:rgb(29, 94, 169);
+  --bg-alpha-color:rgb(29, 94, 169, 0.75);
+
+  --bg-gradient-color : linear-gradient(to right, blue, pink);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+
+.bg-color-primario{
+  background-color: var(--first-color);
+}
+ .bg.color-secundario{
+  background-color: var(--second-color);
+ }
+
+ .bg.color-primario-alfa{
+  background-color: var(--first-alpha-color);
+ }
+
+
+ .header-mv{
+  display: none;
+}
+
+/* media query 1 */
+/* media query 1 */
+/* media query 1 */
+
+@media (max-width:992px){
+ 
+  .header-pc{
+    display:none ;
+  }
+  .header-mv{
+    display:inline;
+     
+  }
+
+  /* icono de acsa en movil  */
+  .header-mv nav div div a img{
+    height: 8vh;
+  }
+
+  .bg1-carousel{
+    
+    min-height: 450px !important;
+    background-size: contain;
+    background-position: center;
+  }
+  .bg2-carousel{
+    
+    min-height: 450px !important;
+    background-size: contain;
+    background-position: center;
+
+  }
+
+  .bg3-carousel{
+    
+    min-height: 450px !important;
+    background-size: contain;
+    background-position: center;
+
+  }
+
+  .productosDestacados-acsa{
+    margin-top: 400px;
+  }
+
+
+}
+
+
+
+
+
+/* media query 2 */
+
+@media (max-width:1200px){
+
+  .marcas-carousel{
+    max-height: 80px;
+    width:auto;
+  }
+
+
+}
+
+
+
+.footer{
+    background-color: #004D94;
+    position: relative;
+    color : white;
+
+}
+
+.link-acsa{
+  text-decoration: none;
+  color: black;
+}
+
+
+.text-producto-descripcion{
+  color: grey;
+  font-size: 13px;
+}
+
+
+/* *********************** Bootstrap ******************************** */
+
+  .nav-item{
+    transition: all 1.5s ease-in-out;
+    border:1px solid transparent ;
+  }
+
+  .nav-item:hover{
+    background-color: var(--first-alpha-color);
+    border-bottom: 1px solid white;
+   
+  }
+
+  .nav-busqueda{
+    background-color: var(--second-color);
+  }
+
+  .nav-busqueda div div span{
+    color: var(--first-color)!important;
+  }
+  .btn-outline-primary{
+    color: white!important;
+    background-color:var(--first-color)!important;
+  }
+
+
+  
+/* SLIDER PRINCIPAL  */
+/* SLIDER PRINCIPAL  */
+
+  .bg1-carousel{
+    background-image: url(../images/xx.jpeg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .bg2-carousel{
+    background-image: url(../images/xxx2.jpeg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .bg3-carousel{
+    background-image: url(../images/xxx3.jpeg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    
+  }
+ 
+
+/* .banner{
+  height: 200px;
+} */
+
+
+/* .marcas-slider{
+  max-height: 90px;
+  width:auto;
+} */
+
+
+/* .xxs{
+  position: relative;
+} */
+
+.text-slider{
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 300px;
+  background-color: rgb(220, 20, 60, 0.5);
+
+}
+
+
+
+.nav-acsa{
+  position:;
+  z-index: 3;
+
+}
+
+.slider-acsa{
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; 
+
+}
+
+
+.marcasPropias-acsa{
+  margin-top:76vh;
+  
+  background-color: #587a4c;
+}
+
+.marcasPropias-acsa p{
+
+  font-size:30px;
+}
+
+
+
+ .custom-icon{
+  color: rgb(114, 14, 14);
+  font-size: 80px;
+ }
+
+ /* iconos del nav pc  */
+
+ .icono-redes{
+  color: white;
+  font-size: 30px;
+ }
+
+ .navbar-nav {
+  font-size: 18px; /* Cambia el valor para ajustar el tamaño del texto */
+  
+}
+.letra-nav{
+  color: white!important;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.navbar.navbar-scroll {
+  background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
+}
+
+
+.nav-acsa nav div div{
+  height: 6vh;
+}
+.nav-acsa nav div div a img{
+  height: 6vh;
+}
+.barra-busqueda{
+  background-color: var(--first-alpha-color);
+}
+
+/* barra de busqueda pc cambio de color */
+.navbar {
+  transition: background-color 0.9 ease-in-out; /* Agrega una transición suave para el cambio de color */
+}
+
+.navbar-scrolled {
+  background-color:var(--first-alpha-color) ; /* Cambia el color de fondo según tus preferencias */
+}
+
+.btn-acsa{
+  background-color: #0f3b68;
+  color:#ffffff;
+}
+/* barra de busqueda */
+
+
+
+
+
+
+
+
+
+

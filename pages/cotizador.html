@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AcsaCorp</title>
+  
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style1.css">
+   
+  </head>
+  <body>
+  
+    <div class="sticky-top nav-acsa header-pc ">
+    <nav class=" container-fluid navbar navbar-expand-md bg-body-tertiary ">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex justify-content-center">
+          <a class="navbar-brand" href="#"><img src="images/ACSA-WEB.png" class="img-fluid" alt=""></a>
+        </div>
+        
+        
+        <div class="collapse navbar-collapse ms-2 pt-2 " id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+            <li class="nav-item">
+              <a class="nav-link active letra-nav" aria-current="page" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra-nav" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra-nav" href="#" >COTIZADOR </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra-nav" href="#">CONTACTO</a>
+            </li>
+          </ul>
+
+
+           <div class="d-flex">
+            <a class="nav-link " aria-current="page" href="#">
+              <i class="bi bi-whatsapp px-2 icono-redes"></i></a>
+              <a class="nav-link " aria-current="page" href="#">
+                <i class="bi bi-facebook px-2 icono-redes"></i></a>
+                <a class="nav-link " aria-current="page" href="#">
+                  <i class="bi bi-youtube px-2 icono-redes"></i></a>
+                  <a class="nav-link " aria-current="page" href="#">
+                    <i class="bi bi-whatsapp px-2 icono-redes"></i></a>
+           </div>
+        </div>
+      </div>
+    </nav>
+
+<!-- BARRA DE BUSQUEDA PARA PC -->
+
+    <div id="myNavbar" class="busqueda-pc">
+
+      <div class="container py-1 px-3" >
+        <div class="row">
+
+          <div class="navbar-item col w-100 ">
+            <form class="d-flex w-100">
+              <input class="form-control form-control-sm mx-2 " type="search" placeholder="Busca tu Producto Aqui " aria-label="Search">
+              <button class="btn btn-acsa" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+     </div>
+
+    </div>
+
+<!-- BARRA DE BUSQUEDA PARA PC  -->
+      
+    </div>
+
+    </div>
+
+<!-- -------------------------  HEADER MOVIL--------------- -->
+
+
+    <header class="sticky-top navbar-expand-lg header-mv ">
+      
+      <nav class="container-fluid navbar navbar-scroll navbar-expand-lg bg-body-tertiary   ">
+        <div class="container-fluid">
+          
+
+          <button
+            class="navbar-toggler "
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <i class="bi bi-three-dots text-white"></i>
+          </button>
+          <div class="d-flex justify-content-center">
+            <a class="navbar-brand" href="#"><img src="../images/ACSA-WEB.png" class="img-fluid" alt=""></a>
+            
+          </div>
+
+          
+          <!-- canvas lado izquierdo  -->
+          <div
+            class="offcanvas offcanvas-start  "
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header bg-color-primario">
+              <div class="offcanvas-title text-white" id="offcanvasNavbarLabel" >
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <img
+              class="imagen-logo-acsa"
+              src="images/ACSA-WEB.png"
+              class="rounded-pill py-2"
+              alt="Logo AcsaCorp"
+              width="100"
+          />
+              </h5>
+
+              <h6 class="pt-2" >TU ALIADO DE CONFIANZA </h6>
+            </div>
+
+              <button
+                type="button"
+                class="btn-close "
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+              
+            </div>
+
+            <div class="offcanvas-body bg-color-primario ">
+              <hr class="d-lg-none text-white-50">
+              <ul class="nav ">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Productos</a
+                  >
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">Cotizador</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">Contacto</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-three-dots text-white"></i>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header bg-color-primario">
+              <div class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+                <img
+              class="imagen-logo-acsa d-block"
+              src="images/ACSA-WEB.png"
+              class="rounded-pill py-2"
+              alt="Logo AcsaCorp"
+              width="100"
+          />
+          <h6 class="pt-2">TU ALIADO DE CONFIANZA </h6>
+          
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body bg-color-primario">
+              <hr class="d-lg-none text-white-50">
+              <div class="">
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 w-80">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="tel:013116900"
+                      > <i class="bi bi-telephone px-2"></i> Central Telefonica : +51 3116900</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#"
+                      ><i class="bi bi-whatsapp px-2"></i
+                    >  Asesor Comercial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="mailto:ventas@acsa.com.pe"
+                      ><i class="bi bi-envelope px-2"></i>
+                        ventas@acsa.com.pe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"
+                      ><i class="bi bi-facebook px-2"></i
+                    >  Facebook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"
+                      ><i class="bi bi-instagram px-2"></i
+                    >  Instagram</a>
+                  </li>
+                  
+                </ul>
+
+
+              </div>
+              
+            
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </nav>
+
+        <!-- ------- BARRA DE BUSQUEDA EN MOVIL-----  -->
+
+
+              <!-- <div class="navbar-expand  nav-busqueda ">
+                <div class="container py-1 px-3">
+                  <div class="row">
+
+                    <div class="navbar-item ">
+                      <form class="d-flex input-group">
+                        <input class="form-control mx-2 " type="search" placeholder="Busca tu Producto Aqui " aria-label="Search">
+                        <button class="btn btn-primary btn-outline-primary" type="submit"><span>Buscar</span></button>
+                      </form>
+                    </div>
+                  </div>
+               </div>
+                
+              </div> -->
+        <!-- ------ FIN BARRA DE BUSQUEDA-----  -->
+
+
+    </header>
+    
+
+<!-- ------------------------- FIN  HEADER MOVIL--------------- -->
+
+
+
+<!-- ------------------------- CONTENIDO --------------- -->
+
+<main class="container ">
+    <div class="login-cotizador-mv">
+        <div class="text-center">
+            <img src="../images/Cotizador.jpg" alt="">
+        </div>
+        <h3>Login</h3>
+        <div>
+            <div class="mb-3 mx-2">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mx-2">
+            <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock" placeholder="Contraseña">
+               
+            </div>
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+
+
+<!-- ------------------------- CONTENIDO--------------- -->
+
+
+
+
+
+
+      <footer class="container-fluid mt-5 footer-acsa">
+
+        <div class="accordion  accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header ">
+              <button class="accordion-button collapsed "  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Nuestros Locales
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div>
+                  <p class="">Local Comercial</p>
+                  <p>Jr Azangaro 1008 Cercado de Lima</p>
+                </div>
+                <div>
+                  <p class="">Oficinas</p>
+                  <p>Jr Bambas 451 off. 201  Cercado de Lima</p>
+                </div>
+                <div>
+                  <p class="">Almacén</p>
+                  <p>Los Alamos Mza. M Lote 8 (Shangrila)
+                    Puente Piedra</p>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item footer-acsa">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ACORDION LIBRE
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, architecto. Quidem, ex cupiditate sit voluptatum soluta, est amet quae rem eum maiores, iste unde? Vero dolore incidunt eum earum maiores.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Atencion al Cliente
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <div>
+                  <a href="#"><p class="">Politicas de cambios y devoluciones</p></a>
+                  <a href="#"><p class="">Politicas de calidad</p></a>
+                  <a href="#"><p class="">Terminos y condiciones</p></a>
+                  <a href="#"><p class="">Libro de reclamaciones</p></a>
+                  <a href="#"><p class="">Mas politicas de Felipe</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-2">
+          <p class="text-white text-center">AcsaCorp 2023 Todos los derechos reservados.</p>
+        </div>
+        
+      </footer>
+
+  <!-- 
+      <footer class="sticky-bottom footer">
+        <nav class="  ">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-whatsapp"></i></div>
+                <p class="ps-2 fs-6">Contacta con un Asesor</p>
+              </div>
+              <div class="col-6 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-telephone"></i></div>
+                <p class="ps-2 fs-6">+51 311 6900</p>
+              </div>
+
+              <div class="col-6 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-envelope"></i></div>
+                <p class="ps-2 fs-6">ventas@acsa.com.pe</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </footer> -->
+
+
+
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+     <script src="../javascript.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+    </script>
+
+    
+
+
+     
+  </body>
+</html>
+
+

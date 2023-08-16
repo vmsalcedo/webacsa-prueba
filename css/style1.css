@@ -1,0 +1,358 @@
+/* *********************** Custom Properties ******************************** */
+
+:root {
+  --first-color:rgb(29, 94, 169);
+  --first-alpha-color:rgb(29, 94, 169, 0.6);
+  /* --second-color:#657A99; */
+  --second-color:rgb(74, 193, 239); 
+  --second-alpha-color:rgb(74, 193, 239, 0.75);
+
+  --bg-color:rgb(29, 94, 169);
+  --bg-alpha-color:rgb(29, 94, 169, 0.75);
+
+  --bg-gradient-color : linear-gradient(to right, blue, pink);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+
+.bg-color-primario{
+  background-color: var(--first-color);
+}
+ .bg.color-secundario{
+  background-color: var(--second-color);
+ }
+
+ .bg.color-primario-alfa{
+  background-color: var(--first-alpha-color);
+ }
+
+
+ .header-pc {
+  display: none;
+ }
+
+ .header-mv{
+  background-color: var(--bg-color);
+  
+  
+ }
+
+  /* icono de acsa en movil  */
+  .header-mv nav div div a img{
+    height: 50px;
+  }
+
+  .btn-primary{
+    background: var(--second-color);
+    color: black !important;
+  }
+
+
+
+  /* carousel  */
+
+  .bg1-carousel{
+    background-image: url(../images/xx.jpeg);
+    min-height: 300px;
+    background-size:cover;
+    background-position: center;
+  
+  }
+
+
+  .bg2-carousel{
+    background-image: url(../images/xxx2.jpeg);
+    min-height: 300px;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .bg3-carousel{
+    background-image: url(../images/xxx3.jpeg);
+    min-height: 300px;
+    background-size:cover;
+    background-position: center;
+
+  }
+
+  .btn-carousel{
+    display: none;
+  }
+
+
+  .banner-1{
+    margin-top:10px;
+  }
+
+ .productosDestacados-acsa{
+  margin-top: 10px;
+ }
+  .card img{
+    
+    width: 150px;
+    height: auto;
+  }
+
+
+  .footer-acsa {
+    background-color: rgb(39, 9, 104);
+  }
+
+  .footer-acsa button{
+    background-color: rgb(39, 9, 104);
+  }
+
+  .accordion-item{
+    background-color: rgb(39, 9, 104);
+    border-radius: none !important;
+  }
+   /* estilo del boton presionado  */
+  
+   .accordion-button{
+    background-color: rgb(39, 9, 104)!important;
+    color: white !important;
+    box-shadow: none !important; /* Para quitar el borde sombreado al presionar */
+   
+  }
+
+  .collapsed{
+    background-color: rgb(39, 9, 104)!important;
+    border-radius: none !important;
+  }
+
+ 
+
+/* login de cotizador  */
+
+.login-cotizador-mv{
+  background-color: orangered;
+  height: 60vh;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+.login-cotizador-mv div img{
+  padding-top: 20px;
+  width: 200px;
+  border-radius: 50%;
+}
+.input-form-acsa {
+  height: 10px !important;
+}
+.input-form-acsa label {
+  position: absolute !important;
+}
+
+
+
+
+
+
+
+/* media a partir de 766px   */
+/* media a partir de 766px   */
+/* media a partir de 766px   */
+
+  @media (min-width: 766px) {
+    
+  .header-mv {
+  display: none;
+  }
+
+  .header-pc{
+    display: inline;
+   
+  }
+  
+/* background cuando baja el scroll */
+  .navbar.navbar-scroll {
+    background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
+  }
+
+ /* Logo de acsa en pc  */
+  .nav-acsa nav div div a img{
+    height: 6vh;
+  }
+
+  .letra-nav{
+    color: white!important;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  /* Iconos de redes sociales en pc  */
+  .icono-redes{
+    color: white;
+    font-size: 20px; /*cambia el tamaño */
+   }
+
+  /* barra de busqueda scroll  */
+  .navbar {
+    transition: background-color 0.9 ease-in-out; /* Agrega una transición suave para el cambio de color */
+  }
+  
+  .navbar-scrolled {
+    background-color:var(--first-alpha-color) ; /* Cambia el color de fondo según tus preferencias */
+  }
+ /* barra de busqueda scroll  */
+
+
+  .nav-acsa{
+    position:"";
+    z-index: 3;
+  
+  }
+  
+  .slider-acsa{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+  
+  }
+
+
+
+  .bg1-carousel{
+    background-image: url(../images/xx.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+  
+  }
+
+  .bg2-carousel{
+    background-image: url(../images/xxx2.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .bg3-carousel{
+    background-image: url(../images/xxx3.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+
+  }
+
+ 
+
+  .btn-carousel{
+    display: inline;
+    background: rgb(151, 22, 22);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    letter-spacing: 1px;
+
+    position: relative;
+    
+    top: 600px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    
+    
+  }
+
+
+  .btn-carousel:hover{
+    background-color: blue;
+  }
+
+ /* .btn-carousel::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(45deg, red,blue,deeppink,blue, red,blue,deeppink,blue);
+    background-size: 800%;
+    filter: blur(10px);
+    
+    animation: glowing 20s linear infinite;
+
+ }
+ @keyframes glowing{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+
+ } */
+
+ .banner-1 {
+  margin-top: 660px;
+  background-color: rgb(25, 175, 75);
+  padding: 20px ;
+}
+
+ .card img{
+    
+  width: 250px;
+  height: auto;
+}
+  
+ .productosDestacados-acsa{
+    margin-top: 10px;
+
+  }
+
+
+  .banner-3 {
+    background-color: rgb(221, 133, 33);
+    padding: 20px ;
+  }
+
+
+  .login-cotizador{
+    background-color: orangered;
+    height: 80vh;
+  }
+
+
+  }
+
+
+
+
+  @media (min-width: 992px){
+     /* Logo de acsa en pc  */
+  .nav-acsa nav div div a img{
+    height: 8vh;
+  }
+
+  .letra-nav{
+   
+   
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  /* Iconos de redes sociales en pc  */
+  .icono-redes{
+    color: white;
+    font-size: 30px; /*cambia el tamaño */
+   }
+
+
+  }
+
